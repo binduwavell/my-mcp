@@ -1,0 +1,45 @@
+{
+  "mcpServers": {
+    "tavily-mcp": {
+      "command": "/home/bwavell/.volta/bin/npx",
+      "args": [
+        "-y",
+        "tavily-mcp@0.1.4"
+      ],
+      "env": {
+        "TAVILY_API_KEY": "Add Tavily API key"
+      },
+      "disabled": true,
+      "autoApprove": [],
+      "alwaysAllow": [
+        "list_tools"
+      ]
+    },
+    "github.com/pashpashpash/perplexity-mcp": {
+      "command": "/home/bwavell/.volta/bin/node",
+      "args": [
+        "/var/home/bwavell/projects/my-mcp/perplexity-mcp/build/index.js"
+      ],
+      "env": {
+        "PERPLEXITY_API_KEY": "Add perplexity API key"
+      },
+      "autoApprove": [
+        "search",
+        "get_documentation",
+        "find_apis",
+        "check_deprecated_code"
+      ]
+    },
+    "github.com/zcaceres/fetch-mcp": {
+      "command": "/home/bwavell/.volta/bin/node",
+      "args": [
+        "/var/home/bwavell/projects/my-mcp/fetch-mcp/dist/index.js"
+      ],
+      "disabled": false,
+      "autoApprove": [],
+      "alwaysAllow": [
+        "list_tools"
+      ]
+    }
+  }
+}
