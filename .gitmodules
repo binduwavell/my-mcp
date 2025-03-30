@@ -1,0 +1,6 @@
+[submodule "fetch-mcp"]
+	path = fetch-mcp
+	url = https://github.com/zcaceres/fetch-mcp
+[submodule "perplexity-mcp"]
+	path = perplexity-mcp
+	url = https://github.com/pashpashpash/perplexity-mcp.git
