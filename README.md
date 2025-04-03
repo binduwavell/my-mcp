@@ -58,3 +58,7 @@ Then, commit the changes:
 ```bash
 git commit -am "Update all submodules"
 ```
+
+## Oddities
+
+The perplexity mcp uses better-sqlite3 which seems to cause a lot of issues with pnpm, use npm and things should be fine.
